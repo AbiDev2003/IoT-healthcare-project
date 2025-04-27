@@ -2,7 +2,7 @@
 #include <WiFi.h>
 #include <HTTPClient.h>
 
-String apiKey = "SKU6U8HKGWSBMI9E";  // Enter your Write API key from ThingSpeak
+String apiKey = ".............";  // Enter your Write API key from ThingSpeak
 const char* ssid = "project";        // Replace with your Wi-Fi SSID
 const char* pass = "12345678";       // Replace with your Wi-Fi password
 const char* server = "api.thingspeak.com";
