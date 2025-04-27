@@ -1,3 +1,5 @@
+// This arduino uno C++ code is using sensors like ds18b20, max30100, ir sensor for body temp, heartrate, blood oxygen level detection. In future you may add mail alert and telegram alert in esp32 if you want. 
+
 /////arduino uno code//////
 #include <MAX3010x.h>
 #include "filters.h"
