@@ -38,6 +38,77 @@ This repository contains various Arduino/ESP32 projects including sensor impleme
 3. Set SMTP server details in ESP32 code
 4. Implement proper security measures
 
+## ThingSpeak API Integration Guide
+
+### Step 1: Channel Creation
+1. Sign up/login at [ThingSpeak.com](https://thingspeak.com)
+2. Click "New Channel"
+3. Configure fields:
+   - Field 1: `Temperature` (°C)
+   - Field 2: `SpO₂` (%)
+   - Field 3: `Pulse Rate` (BPM)
+4. (Optional) Add description and metadata
+
+### Step 2: API Keys
+```plaintext
+Channel ID:      Found in URL (e.g., 1234567)
+Write API Key:   **************** (keep secret)
+Read API Key:    **************** (for dashboards)
+```
+## Step 3: Complete ESP32 + ThingSpeak Integration Code
+
+### Full Implementation Example
+```cpp
+#include <WiFi.h>
+#include <HTTPClient.h>
+
+// WiFi Credentials
+const char* ssid = "YOUR_WIFI_SSID";
+const char* password = "YOUR_WIFI_PASSWORD";
+
+// ThingSpeak Configuration
+const char* server = "api.thingspeak.com";
+const String apiKey = "YOUR_WRITE_API_KEY";
+const long channelID = YOUR_CHANNEL_ID;
+
+void setup() {
+  Serial.begin(115200);
+  WiFi.begin(ssid, password);
+  
+  while (WiFi.status() != WL_CONNECTED) {
+    delay(500);
+    Serial.print(".");
+  }
+  Serial.println("WiFi connected");
+}
+
+void loop() {
+  if (WiFi.status() == WL_CONNECTED) {
+    HTTPClient http;
+    
+    // Sample sensor values - replace with actual readings
+    float temperature = 36.5;  // From DS18B20
+    float spo2 = 98.0;         // From MAX30102
+    int heartRate = 72;        // From MAX30102
+    
+    String url = "http://" + String(server) + "/update?api_key=" + apiKey +
+                 "&field1=" + String(temperature) +
+                 "&field2=" + String(spo2) +
+                 "&field3=" + String(heartRate);
+    
+    http.begin(url);
+    int httpCode = http.GET();
+    
+    if (httpCode > 0) {
+      Serial.printf("[HTTP] GET... code: %d\n", httpCode);
+    } else {
+      Serial.printf("[HTTP] GET... failed, error: %s\n", http.errorToString(httpCode).c_str());
+    }
+    http.end();
+  }
+  delay(15000); // Wait 15 seconds between updates
+}
+```
 ---
 
 # IoT-based Healthcare Monitoring System (Final Year Project)
