@@ -2,6 +2,8 @@
 
 This repository contains various Arduino/ESP32 projects including sensor implementations (DS18B20, MAX30102) and processor testing codes (ESP32 mail/telegram alerts).
 
+![Project Prototype](./final_prototype_image.png)
+
 ## Sensor Projects (DS18B20, MAX30102, etc.)
 
 ### Quick Start Guide:
