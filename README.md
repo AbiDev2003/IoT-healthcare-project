@@ -320,7 +320,7 @@ Read the documentation below to know how to implement this feature.
 ***Guided by :*** \
 Prof. Subhendu Kumar Behera \
 Associate Professor \
-Department of Electonics and Telecommunication Engineering \
+Department of Electronics and Telecommunication Engineering \
 DRIEMS University, Tangi, Cuttack \
 Portfolio: [Link](https://www.driems.ac.in/subhendu-kumar-behera/) 
 
