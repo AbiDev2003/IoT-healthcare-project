@@ -319,8 +319,9 @@ Read the documentation below to know how to implement this feature.
 
 ***Guided by :*** \
 Prof. Subhendu Kumar Behera \
-Associate Professor \
+Assistant Professor \
 Department of Electronics and Telecommunication Engineering \
+School of Engineering and Technology \
 DRIEMS University, Tangi, Cuttack \
 Portfolio: [Link](https://www.driems.ac.in/subhendu-kumar-behera/) 
 
@@ -332,6 +333,7 @@ Sanket Kumar Chaudhury
 
 Batch of 2021-25\
 Electronics and Telecommunication Engineering\
+School of Engineering and Technology \
 DRIEMS University, Tangi, Cuttack
  
 ---
