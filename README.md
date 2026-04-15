@@ -169,6 +169,7 @@ void loop() {
   <img src="./thingspeak_dashboard/heartbeat_BPM.png" alt="heartbeat rate (BPM)" width="30%" />
   <img src="./thingspeak_dashboard/blood_oxygen_SPO2.png" alt="Blood oxygen level (SpO2)" width="30%" />
 </p>
+
 #### Setup Instructions:
 1. Create a Telegram bot using [BotFather](https://t.me/botfather)
 2. Securely store your Telegram API key
