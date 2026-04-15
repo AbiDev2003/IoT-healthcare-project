@@ -5,6 +5,7 @@ This repository contains the complete prototype implementation of our final year
 The repository also provides individual hardware testing codes for sensors and microcontroller modules, ensuring reliability and validation before system integration. In addition, a dedicated section highlights future improvements and upgrade possibilities, making the project scalable, extensible, and ready for real-world deployment. 
 
 ![Project Prototype](./final_prototype_image.jpg)
+![Circuit Diagram](./circuit_diagram.png)
 
 ## Quick Start Guide
 1. Install required libraries in Arduino IDE
@@ -158,6 +159,11 @@ void loop() {
 }
 ```
 
+#### Thingspeak dashboard sensor trigger images
+![channel dashboard](./thingspeak_dashboard/dashboard.png)
+![body temperature](./thingspeak_dashboard/temp.png)
+![heartbeat rate (BPM)](./thingspeak_dashboard/heartbeat_BPM.png)
+![Blood oxygen level (SpO2)](./thingspeak_dashboard/blood_oxygen_SPO2.png)
 #### Setup Instructions:
 1. Create a Telegram bot using [BotFather](https://t.me/botfather)
 2. Securely store your Telegram API key
