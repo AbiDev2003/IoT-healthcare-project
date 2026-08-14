@@ -337,12 +337,6 @@ School of Engineering and Technology \
 DRIEMS University, Tangi, Cuttack \
 Portfolio: [Link](https://www.driems.ac.in/subhendu-kumar-behera/) 
 
-***Project Team :*** \
-Abinash Dash \
-Sapta Ranjan Singh \
-Debadatta Satapathy \
-Sanket Kumar Chaudhury 
-
 Batch of 2021-25\
 Electronics and Telecommunication Engineering\
 School of Engineering and Technology \
@@ -352,9 +346,9 @@ DRIEMS University, Tangi, Cuttack
 
 ## Acknowledgement
 
-We would like to express our deepest gratitude to our project guide, **Prof. Subhendu Kumar Behera**, for his constant guidance, mentorship, and technical support throughout the development of this project. His insights, encouragement, and constructive feedback played a key role in shaping the design, testing, and successful completion of this work.
+I would like to express my deepest gratitude to our project guide, **Prof. Subhendu Kumar Behera**, for his constant guidance, mentorship, and technical support throughout the development of this project. His insights, encouragement, and constructive feedback played a key role in shaping the design, testing, and successful completion of this work.
 
-We would also like to thank the Department of Electronics & Telecommunication Engineering and DRIEMS University, Tangi, Cuttack, for providing laboratory facilities, resources, and a supportive academic environment that enabled us to carry out experimentation and project implementation smoothly.
+I would also like to thank the Department of Electronics & Telecommunication Engineering and DRIEMS University, Tangi, Cuttack, for providing laboratory facilities, resources, and a supportive academic environment that enabled us to carry out experimentation and project implementation smoothly.
 
 ---
 ## Author
